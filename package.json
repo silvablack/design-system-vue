@@ -5,10 +5,17 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "theo": "theo ./tokens/tokens.yml --transform web --format map.scss,scss,raw.json,json --dest ./build/assets/tokens",
+    "start": "http-server ./build/assets/tokens"
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "gulp": "^4.0.2",
+    "gulp-theo": "^2.0.1",
+    "http-server": "^0.12.3",
+    "optimist": "^0.6.1",
+    "theo": "^8.1.5",
     "vue": "^2.6.11"
   },
   "devDependencies": {
