@@ -18,6 +18,8 @@ props:
     value: "13px"
   size_xs:
     value: "11px"
+  font_size_m:
+    value: "1rem"
 global:
   type: number
   category: font-size

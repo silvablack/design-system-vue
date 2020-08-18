@@ -20,103 +20,12 @@
     }
   },
   "props": {
-    "color_ucla_gold": {
-      "type": "color",
-      "category": "color_group_2",
-      "value": "rgb(255, 186, 10)",
-      "originalValue": "hsla({!ucla_gold}, 52%, 1)",
-      "name": "color_ucla_gold"
-    },
-    "color_ucla_gold_darker": {
-      "type": "color",
-      "category": "color_group_2",
-      "value": "rgb(179, 128, 0)",
-      "originalValue": "hsla({!ucla_gold}, 35%, 1)",
-      "name": "color_ucla_gold_darker"
-    },
-    "color_vermilion_lighter": {
-      "type": "color",
-      "category": "color_group_1",
-      "value": "rgb(244, 151, 138)",
-      "originalValue": "hsla({!vermilion}, 75%, 1)",
-      "name": "color_vermilion_lighter"
-    },
     "color_vermilion_darker": {
       "type": "color",
       "category": "color_group_1",
       "value": "rgb(154, 31, 14)",
       "originalValue": "hsla({!vermilion}, 33%, 1)",
       "name": "color_vermilion_darker"
-    },
-    "color_ucla_gold_lighter": {
-      "type": "color",
-      "category": "color_group_2",
-      "value": "rgb(255, 219, 128)",
-      "originalValue": "hsla({!ucla_gold}, 75%, 1)",
-      "name": "color_ucla_gold_lighter"
-    },
-    "color_bleu_de_france_dark": {
-      "type": "color",
-      "category": "color_group_3",
-      "value": "rgb(16, 112, 209)",
-      "originalValue": "hsla({!bleu_de_france}, 44%, 1)",
-      "name": "color_bleu_de_france_dark"
-    },
-    "color_bleu_de_france_light": {
-      "type": "color",
-      "category": "color_group_3",
-      "value": "rgb(84, 163, 242)",
-      "originalValue": "hsla({!bleu_de_france}, 64%, 1)",
-      "name": "color_bleu_de_france_light"
-    },
-    "color_silver": {
-      "type": "color",
-      "category": "color_group_4",
-      "value": "rgb(127, 136, 145)",
-      "originalValue": "#7F8891",
-      "name": "color_silver"
-    },
-    "color_white": {
-      "type": "color",
-      "category": "color_group_4",
-      "value": "rgb(255, 255, 255)",
-      "originalValue": "{!white}",
-      "name": "color_white"
-    },
-    "color_bleu_de_france": {
-      "type": "color",
-      "category": "color_group_3",
-      "value": "rgb(37, 138, 239)",
-      "originalValue": "hsla({!bleu_de_france}, 54%, 1)",
-      "name": "color_bleu_de_france"
-    },
-    "color_bleu_de_france_darker": {
-      "type": "color",
-      "category": "color_group_3",
-      "value": "rgb(12, 87, 161)",
-      "originalValue": "hsla({!bleu_de_france}, 34%, 1)",
-      "name": "color_bleu_de_france_darker"
-    },
-    "color_bleu_de_france_lighter": {
-      "type": "color",
-      "category": "color_group_3",
-      "value": "rgb(132, 189, 246)",
-      "originalValue": "hsla({!bleu_de_france}, 74%, 1)",
-      "name": "color_bleu_de_france_lighter"
-    },
-    "color_ucla_gold_dark": {
-      "type": "color",
-      "category": "color_group_2",
-      "value": "rgb(230, 164, 0)",
-      "originalValue": "hsla({!ucla_gold}, 45%, 1)",
-      "name": "color_ucla_gold_dark"
-    },
-    "color_vermilion_light": {
-      "type": "color",
-      "category": "color_group_1",
-      "value": "rgb(239, 101, 82)",
-      "originalValue": "hsla({!vermilion}, 63%, 1)",
-      "name": "color_vermilion_light"
     },
     "color_vermilion_dark": {
       "type": "color",
@@ -125,40 +34,19 @@
       "originalValue": "hsla({!vermilion}, 43%, 1)",
       "name": "color_vermilion_dark"
     },
-    "color_ucla_gold_light": {
+    "color_neutral_white": {
       "type": "color",
-      "category": "color_group_2",
-      "value": "rgb(255, 204, 77)",
-      "originalValue": "hsla({!ucla_gold}, 65%, 1)",
-      "name": "color_ucla_gold_light"
+      "category": "color",
+      "value": "rgb(255, 255, 255)",
+      "originalValue": "{!white}",
+      "name": "color_neutral_white"
     },
-    "color_rich_black": {
+    "color_brand_primary_base": {
       "type": "color",
-      "category": "color_group_4",
-      "value": "rgb(0, 17, 35)",
-      "originalValue": "{!rich_black}",
-      "name": "color_rich_black"
-    },
-    "color_cloud": {
-      "type": "color",
-      "category": "color_group_4",
-      "value": "rgb(233, 243, 253)",
-      "originalValue": "#E9F3FD",
-      "name": "color_cloud"
-    },
-    "color_oxford_blue": {
-      "type": "color",
-      "category": "color_group_4",
-      "value": "rgb(0, 38, 77)",
-      "originalValue": "hsla({!oxford_blue}, 15%, 1)",
-      "name": "color_oxford_blue"
-    },
-    "color_vermilion": {
-      "type": "color",
-      "category": "color_group_1",
-      "value": "rgb(235, 59, 36)",
-      "originalValue": "hsla({!vermilion}, 53%, 1)",
-      "name": "color_vermilion"
+      "category": "color",
+      "value": "rgb(0, 102, 178)",
+      "originalValue": "#0066B2",
+      "name": "color_brand_primary_base"
     },
     "size_xxxl": {
       "type": "number",
@@ -209,47 +97,33 @@
       "originalValue": "11px",
       "name": "size_xs"
     },
-    "font_heading": {
+    "font_size_m": {
+      "type": "number",
+      "category": "font-size",
+      "value": "1rem",
+      "originalValue": "1rem",
+      "name": "font_size_m"
+    },
+    "font_family_01": {
       "type": "...",
       "category": "font",
-      "value": "'Fira Sans', Helvetica, Arial, sans-serif",
-      "originalValue": "'Fira Sans', Helvetica, Arial, sans-serif",
-      "name": "font_heading"
+      "value": "'Inconsolata', Helvetica, Arial, sans-serif",
+      "originalValue": "'Inconsolata', Helvetica, Arial, sans-serif",
+      "name": "font_family_01"
     },
-    "font_text": {
-      "type": "...",
-      "category": "font",
-      "value": "'Fira Sans', Helvetica, Arial, sans-serif",
-      "originalValue": "'Fira Sans', Helvetica, Arial, sans-serif",
-      "name": "font_text"
-    },
-    "weight_bold": {
-      "type": "...",
-      "category": "font",
-      "value": "700",
-      "originalValue": "700",
-      "name": "weight_bold"
-    },
-    "weight_semi_bold": {
+    "font_weight_semibold": {
       "type": "...",
       "category": "font",
       "value": "600",
       "originalValue": "600",
-      "name": "weight_semi_bold"
+      "name": "font_weight_semibold"
     },
-    "weight_normal": {
+    "font_weight_regular": {
       "type": "...",
       "category": "font",
       "value": "400",
       "originalValue": "400",
-      "name": "weight_normal"
-    },
-    "weight_light": {
-      "type": "...",
-      "category": "font",
-      "value": "300",
-      "originalValue": "300",
-      "name": "weight_light"
+      "name": "font_weight_regular"
     },
     "opacity_disabled": {
       "type": "number",
@@ -356,19 +230,33 @@
       "originalValue": "-1px",
       "name": "spacing_xs"
     },
-    "radius_default": {
+    "border_radius_s": {
       "type": "number",
       "category": "border-radius",
-      "value": "3px",
-      "originalValue": "3px",
-      "name": "radius_default"
+      "value": "4px",
+      "originalValue": "4px",
+      "name": "border_radius_s"
     },
-    "radius_circle": {
+    "border_radius_s8": {
       "type": "number",
       "category": "border-radius",
-      "value": "50%",
-      "originalValue": "50%",
-      "name": "radius_circle"
+      "value": "8px",
+      "originalValue": "8px",
+      "name": "border_radius_s8"
+    },
+    "border_width_none": {
+      "type": "number",
+      "category": "border-radius",
+      "value": "0",
+      "originalValue": "0",
+      "name": "border_width_none"
+    },
+    "border_width_light": {
+      "type": "number",
+      "category": "border-radius",
+      "value": "1px",
+      "originalValue": "1px",
+      "name": "border_width_light"
     },
     "space_xxl": {
       "type": "number",

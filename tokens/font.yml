@@ -4,18 +4,12 @@
 #
 
 props:
-  font_heading:
-    value: "'Fira Sans', Helvetica, Arial, sans-serif"
-  font_text:
-    value: "'Fira Sans', Helvetica, Arial, sans-serif"
-  weight_bold:
-    value: "700"
-  weight_semi_bold:
+  font_family_01:
+    value: "'Inconsolata', Helvetica, Arial, sans-serif"
+  font_weight_semibold:
     value: "600"
-  weight_normal:
+  font_weight_regular:
     value: "400"
-  weight_light:
-    value: "300"
 global:
   type: ...
   category: font
