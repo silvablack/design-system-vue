@@ -5,9 +5,11 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build-webpack": "webpack",
     "lint": "vue-cli-service lint",
-    "theo": "theo ./tokens/tokens.yml --transform web --format map.scss,scss,raw.json,json --dest ./build/assets/tokens",
-    "start": "http-server ./build/assets/tokens"
+    "theo": "nodemon -e yml --watch ./tokens --exec 'theo ./tokens/tokens.yml --transform web --format map.scss,scss,raw.json,json,html,cssmodules.css,custom-properties.css --dest ./dist/tokens && npm run start'",
+    "start-cdn": "nodemon -e css,scss --watch ./dist/tokens --exec 'npm run build'",
+    "start": "http-server -p 8090 ./dist"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -25,7 +27,13 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
-    "vue-template-compiler": "^2.6.11"
+    "nodemon": "^2.0.4",
+    "sass": "^1.26.10",
+    "sass-loader": "^9.0.3",
+    "vue-loader": "^15.9.3",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
   },
   "eslintConfig": {
     "root": true,

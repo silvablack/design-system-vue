@@ -33,4 +33,4 @@ props:
     value: "#0066B2"
 global:
   type: color
-  category: color
+  category: background-color

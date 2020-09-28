@@ -1,19 +1,20 @@
 <template>
   <div class="row">
     <div class="column">
-      <button class="button--primary" value="Button"/>
+      <Button />
     </div>
     <div class="column">
-      <Card/>
+      <Card />
     </div>
   </div>
 </template>
 
 <script>
 import Card from "./Card";
+import Button from "./Button";
 export default {
   name: 'Components',
-  components: {Card},
+  components: { Card, Button },
   props: {
     msg: String
   }
@@ -22,18 +23,17 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
+.row{
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
+
+.column{
+  display: flex;
+  flex-direction: column;
+  margin: 10px
 }
 </style>
